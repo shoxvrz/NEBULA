@@ -1,0 +1,11 @@
+.main {
+  display: flex;
+  flex-direction: column;
+}
+.main__cards {
+  padding: 15px 10px;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+}/*# sourceMappingURL=MainPage.css.map */
